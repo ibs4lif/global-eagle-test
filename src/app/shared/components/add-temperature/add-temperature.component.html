@@ -1,0 +1,4 @@
+<form #addForm="ngForm" (ngSubmit)="addTemperature(addForm.value)">
+  <input ngModel name="temperature">
+  <button type="submit">Add</button>
+</form>
